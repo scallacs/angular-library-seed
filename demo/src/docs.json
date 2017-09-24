@@ -1,0 +1,48 @@
+{
+    "NgbPanel": {
+        "fileName": "src/accordion/accordion.ts",
+        "className": "NgbPanel",
+        "selector": "ngb-panel",
+        "exportAs": "ngbPanel",
+        "description": "",
+        "inputs": [
+            {
+                "name": "disabled",
+                "defaultValue": "false",
+                "type": "boolean",
+                "description": "A flag determining whether the panel is disabled or not.\nWhen disabled, the panel cannot be toggled."
+            },
+            {
+                "name": "id",
+                "type": "string",
+                "description": "An optional id for the panel. The id should be unique.\nIf not provided, it will be auto-generated."
+            },
+            {
+                "name": "open",
+                "defaultValue": "false",
+                "type": "boolean",
+                "description": "Defines whether the panel should be open initially."
+            },
+            {
+                "name": "title",
+                "type": "string",
+                "description": "The title for the panel."
+            }
+        ],
+        "outputs": []
+    },
+    "NgbAccordion": {
+        "fileName": "src/accordion/accordion.ts",
+        "className": "NgbAccordion",
+        "selector": "ngb-accordion",
+        "description": "",
+        "inputs": [
+            {
+                "name": "closeOthers",
+                "type": "boolean",
+                "description": "A flag determining whether the other panels should be closed\nwhen a panel is opened."
+            }
+        ],
+        "outputs": []
+    }
+}
